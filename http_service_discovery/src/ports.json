@@ -1,0 +1,103 @@
+[
+    {"port": 80, "common_usage": ["Default http port."]},
+    {"port": 280, "common_usage": ["Default http port."]},
+    {"port": 443, "common_usage": ["Default http/s port."]},
+    {"port": 591, "common_usage": ["FileMaker 6.0 (and later).", "Web Sharing."]},
+    {"port": 593, "common_usage": [
+        "HTTP RPC Ep Map, Remote procedure call over Hypertext Transfer Protocol, often used by Distributed Component Object Model services and Microsoft Exchange Server."
+        ]},
+    {"port": 832, "common_usage": ["NETCONF for SOAP over HTTPS."]},
+    {"port": 981, "common_usage": ["Remote HTTPS management for firewall devices running embedded Check Point VPN-1 software."]},
+    {"port": 1311, "common_usage": ["Dell OpenManage HTTPS.", "Windows RxMon.exe."]},
+    {"port": 1337, "common_usage": ["Commonly used service port and hackers' favorite number."]},
+    {"port": 1965, "common_usage": ["Gemini protocol, a lightweight, collaboratively designed protocol, striving to fill the gap between Gopher and HTTP."]},
+    {"port": 2480, "common_usage": ["OrientDB database listening for HTTP client connections."]},
+    {"port": 4444, "common_usage": ["I2P HTTP/S proxy."]},
+    {"port": 4445, "common_usage": ["I2P HTTP/S proxy."]},
+    {"port": 5000, "common_usage": [
+        "UPnP—Windows network device interoperability",
+        "VTun, VPN Software.",
+        "ASP.NET Core — Development Webserver.",
+        "FlightGear multiplayer[198]",
+        "Synology Inc. Management Console, File Station, Audio Station.",
+        "Flask Development Webserver.",
+        "Heroku console access.",
+        "Docker Registry[199][self-published source].",
+        "AT&T U-verse public, educational, and government access (PEG) streaming over HTTP.",
+        "High-Speed SECS Message Services.",
+        "3CX Phone System Legacy Management Console.",
+        "League of Legends, a multiplayer online battle arena video game"
+        ]},
+    {"port": 5001, "common_usage": [
+        "Slingbox and Slingplayer.",
+        "Iperf (Tool for measuring TCP and UDP bandwidth performance).",
+        "Synology Inc. Secured Management Console, File Station, Audio Station.",
+        "3CX Phone System Secured Management Console, Secure API."
+        ]},
+    {"port": 5104, "common_usage": ["IBM Tivoli Framework NetCOOL/Impact[207] HTTP Service."]},
+    {"port": 5800, "common_usage": ["VNC Remote Frame Buffer RFB protocol over HTTP.", "ProjectWise Server."]},
+    {"port": 5985, "common_usage": ["Windows PowerShell Default psSession Port[234] Windows Remote Management Service (WinRM-HTTP)."]},
+    {"port": 5986, "common_usage": ["Windows PowerShell Default psSession Port[234] Windows Remote Management Service (WinRM-HTTPS)."]},
+    {"port": 7000, "common_usage": ["Default for Vuze's built-in HTTPS Bittorrent Tracker.", "Avira Server Management Console."]},
+    {"port": 7001, "common_usage": ["Avira Server Management Console.", "Default for BEA WebLogic Server's HTTP server, though often changed during installation."]},
+    {"port": 7002, "common_usage": ["Default for BEA WebLogic Server's HTTPS server, though often changed during installation."]},
+    {"port": 8000, "common_usage": [
+        "Commonly used for Internet radio streams such as SHOUTcast, Icecast and iTunes Radio.",
+        "DynamoDB Local.",
+        "Django Development Webserver."
+    ]},
+    {"port": 8005, "common_usage": ["Tomcat remote shutdown."]},
+    {"port": 8008, "common_usage": [
+        "Alternative port for HTTP. See also ports 80 and 8080.",
+        "IBM HTTP Server administration default.",
+        "iCal, a calendar application by Apple.",
+        "Matrix homeserver federation over HTTP"
+        ]},
+    {"port": 8009, "common_usage": ["Apache JServ Protocol (ajp13)."]},
+    {"port": 8010, "common_usage": ["Buildbot Web status page."]},
+    {"port": 8042, "common_usage": ["Orthanc – REST API over HTTP."]},
+    {"port": 8080, "common_usage": [
+        "Alternative port for HTTP. See also ports 80 and 8008.",
+        "Apache Tomcat.",
+        "Atlassian JIRA applications."
+        ]},
+    {"port": 8222, "common_usage": ["VMware VI Web Access via HTTP."]},
+    {"port": 8243, "common_usage": ["HTTP listener for Apache Synapse."]},
+    {"port": 8280, "common_usage": ["HTTP listener for Apache Synapse."]},
+    {"port": 8281, "common_usage": ["HTTP Listener for Gatecraft Plugin."]},
+    {"port": 8332, "common_usage": ["Bitcoin.", "Bitcoin JSON-RPC server."]},
+    {"port": 8333, "common_usage": ["Bitcoin.", "VMware VI Web Access via HTTPS."]},
+    {"port": 8448, "common_usage": ["Matrix homeserver federation over HTTPS."]},
+    {"port": 8530, "common_usage": ["Windows Server Update Services over HTTP, when using the default role installation settings in Windows Server 2012 and later versions."]},
+    {"port": 8531, "common_usage": ["Windows Server Update Services over HTTPS, when using the default role installation settings in Windows Server 2012 and later versions."]},
+    {"port": 8580, "common_usage": ["Freegate, an Internet anonymizer and proxy tool."]},
+    {"port": 8887, "common_usage": ["HyperVM over HTTP."]},
+    {"port": 8888, "common_usage": [
+        "HyperVM over HTTP.",
+        "HyperVM over HTTPS",
+        "Freenet web UI (localhost only).",
+        "Default for IPython[291][self-published source?] / Jupyter[292][self-published source?] notebook dashboards.",
+        "MAMP[293]"
+        ]},
+    {"port": 9080, "common_usage": [
+        "glrpc, Groove Collaboration software GLRPC.",
+        "WebSphere Application Server HTTP Transport (port 1) default.",
+        "Remote Potato by FatAttitude, Windows Media Center addon",
+        "ServerWMC, Windows Media Center addon"
+        ]},
+    {"port": 9443, "common_usage": ["VMware Websense Triton console (HTTPS port used for accessing and administrating a vCenter Server via the Web Management Interface)."]},
+    {"port": 9981, "common_usage": ["Tvheadend HTTP server (web interface)."]},
+    {"port": 9982, "common_usage": ["Tvheadend HTSP server (Streaming protocol)[305]."]},
+    {"port": 11371, "common_usage": ["OpenPGP HTTP key server."]},
+    {"port": 12043, "common_usage": ["Second Life, used for LSL HTTPS in-bound."]},
+    {"port": 12046, "common_usage": ["Second Life, used for LSL HTTP in-bound."]},
+    {"port": 12443, "common_usage": ["IBM HMC web browser management access over HTTPS instead of default port 443."]},
+    {"port": 16080, "common_usage": ["Mac OS X Server Web (HTTP) service with performance cache."]},
+    {"port": 18091, "common_usage": ["Memcached Internal REST HTTPS for SSL."]},
+    {"port": 18092, "common_usage": ["Memcached Internal CAPI HTTPS for SSL."]},
+    {"port": 19294, "common_usage": ["Google Talk Voice and Video connections."]},
+    {"port": 19295, "common_usage": ["Google Talk Voice and Video connections."]},
+    {"port": 19302, "common_usage": ["Google Talk Voice and Video connection."]},
+    {"port": 25565, "common_usage": ["Minecraft (Java Edition) multiplayer server.", "Minecraft (Java Edition) multiplayer server query"]},
+    {"port": 25575, "common_usage": ["Minecraft (Java Edition) multiplayer server RCON[335]."]}
+]
