@@ -1,0 +1,15 @@
+{
+    "port": 1337,
+    "thread_count": 500,
+    "timeout": 1,
+    "input_file": "subnets.json",
+    "output_file": "out",
+    "full_stdout": true,
+    "hit_words": [
+        "user",
+        "login",
+        "bot",
+        "net",
+        "mirai"
+    ]
+}
