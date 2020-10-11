@@ -18,7 +18,8 @@ for p in body:
     if search(r'(?:\d{1,3}\.){3}\d{1,3}(?:/\d\d?)?', text) and "/" in text:
         if fileO:
             out += text + "\n"    
-        print(text)    
+        else:
+            print(text)    
 if fileO:
     with open(fileName, "w+") as f:
         f.write(out)        
