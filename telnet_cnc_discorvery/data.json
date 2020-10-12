@@ -1,0 +1,17 @@
+{
+    "port": 23,
+    "thread_count": 50,
+    "timeout": 1,
+    "input_file": "colo_telnet_23.json",
+    "output_file": "out",
+    "full_stdout": true,
+    "hit_words": [
+        "user",
+        "login",
+        "bot",
+        "net",
+        "mirai",
+        "id",
+        "sora"
+    ]
+}
