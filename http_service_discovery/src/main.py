@@ -49,7 +49,7 @@ def thread_worker(thread_id, timeout, SPOOF_UA):
 
             try:
                 if SPOOF_UA: headers = generate_navigator()
-                else: headers = {"User-Agent": "Mozilla/5.0 (compatible; rMap/1.0; +https://github.com/aerobotpro/rMap)"}    
+                else: headers = {"User-Agent": "Mozilla/5.0 (compatible; http-sevice-discovery/1.0; +https://mysite.io)"}    
 
                 r = get(f"http://{ip}:" + str(port["port"]), timeout=timeout, headers=headers)
                 
