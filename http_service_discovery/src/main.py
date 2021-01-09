@@ -48,7 +48,7 @@ def thread_worker(thread_id, timeout, SPOOF_UA):
             #print(f"[Thread #{thread_id}] Trying {ip}:{portnum}....")
 
             try:
-                if SPOOF_UA: headers = generate_navigator()
+                if SPOOF_UA: headers = {"User-Agent": generate_navigator()["user_agent]}
                 else: headers = {"User-Agent": "Mozilla/5.0 (compatible; http-sevice-discovery/1.0; +https://mysite.io)"}    
 
                 r = get(f"http://{ip}:" + str(port["port"]), timeout=timeout, headers=headers)
