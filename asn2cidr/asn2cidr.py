@@ -10,7 +10,4 @@ if len(cidrs) and b'not' not in cidrs:
         f.write(cidrs.decode('utf-8'))
         print(fname)
         exit(0)
-       
-
-print("Invalid CIDR!")
 exit(1)
