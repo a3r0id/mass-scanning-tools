@@ -1,6 +1,6 @@
 # mass-scanning-tools
 
--ONLY meant for good, don't a jerk!
+-ONLY meant for good, don't be a jerk!
 
 Various tools I have created for mass-scanning engagements. 
 
