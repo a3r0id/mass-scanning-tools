@@ -1,5 +1,7 @@
 # mass-scanning-tools
 
+-ONLY meant for good, don't a jerk!
+
 Various tools I have created for mass-scanning engagements. 
 
 **Mass-Scanning** as in: Locating specific services like botnet C2's etc. over an entire ASN range.
