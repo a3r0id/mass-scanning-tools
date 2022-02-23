@@ -13,14 +13,6 @@ from colorama import Fore
 
 a = datetime.now()
 
-def get_change(current, previous):
-	if current == previous:
-		return 0
-	try:
-		return (abs(current - previous) / previous) * 100.0
-	except ZeroDivisionError:
-		return float('inf')
-
 def span_token(length):
     buf = str()
     lis = [str(i) for i in range(0, 9)] + ["a", "b", "c"]

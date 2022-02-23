@@ -1,26 +1,13 @@
 import os
-import sys
 import time
 import json
 from telnetlib import Telnet
-import random
 import threading
 from datetime import datetime
-from os import getcwd, path
 from random import choice
-from pathlib import Path
 from colorama import Fore
 
 a = datetime.now()
-
-
-def get_change(current, previous):
-	if current == previous:
-		return 0
-	try:
-		return (abs(current - previous) / previous) * 100.0
-	except ZeroDivisionError:
-		return float('inf')
 
 def span_token(length):
     buf = str()
@@ -38,20 +25,20 @@ def get_lst(input_file):
 	return ips	
 
 class glbls:
-	with open('telnet_data.json') as f:
+	with open('data.json') as f:
 		data = json.load(f)
 	current_session = span_token(8)
-	hit_words = data['hit_words']	
-	port = data['port']
-	thread_count = data['thread_count']
-	input_file = data['input_file']
-	timeout = data["timeout"]
-	output_file = data['output_file'] + "_" + current_session + ".txt"
-	ips = get_lst(input_file)
-	init_ip_len = len(ips)
-	threads_closed = 0
-	full_std_out = data["full_stdout"]
-	hits = []
+	hit_words 		= data['hit_words']	
+	port 			= data['port']
+	thread_count 	= data['thread_count']
+	input_file 		= data['input_file']
+	timeout 		= data["timeout"]
+	output_file 	= data['output_file'] + "_" + current_session + ".txt"
+	ips 			= get_lst(input_file)
+	init_ip_len 	= len(ips)
+	threads_closed  = 0
+	full_std_out 	= data["full_stdout"]
+	hits 			= []
 
 def threadWorker(t_id):
 	time.sleep(1.50)
