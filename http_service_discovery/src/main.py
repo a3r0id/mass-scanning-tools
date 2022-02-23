@@ -16,7 +16,7 @@ class a:
     iplen_init = 0
     final_data = []
     false_positives = ["result", "{\"", "404", "error"]
-    status_codes_to_ignore = [404, 403, 401, 300, 301, 302, 500, 502]
+    status_codes_to_ignore = [404, 403, 401, 500, 502]
     final_data = []
     thread_control = []
     s_hash = ""
@@ -44,9 +44,6 @@ def thread_worker(thread_id, timeout, SPOOF_UA):
         this_ip_port_data = {"ip": ip, "open_ports": []}
 
         for port in a.port_types:
-            portnum = str(port["port"])
-            #print(f"[Thread #{thread_id}] Trying {ip}:{portnum}....")
-
             try:
                 if SPOOF_UA: headers = {"User-Agent": generate_navigator()["user_agent"]}
                 else: headers = {"User-Agent": "Mozilla/5.0 (compatible; http-sevice-discovery/1.0; +https://mysite.io)"}    
@@ -77,15 +74,10 @@ def thread_worker(thread_id, timeout, SPOOF_UA):
 
             count += 1
 
-        #if a.ip_stack >= len(a.ips):
-        #    print(f"Thread #{thread_id} stopping...\n")
-        #    break    
-
-        #a.ip_stack += 1    
 
 
 
-def spawn_threads(thread_count, TIMEOUT, SPOOF_UA):
+def threads(thread_count, TIMEOUT, SPOOF_UA):
 
     for x in range(thread_count):
         thread = threading.Thread(
@@ -124,7 +116,7 @@ def range_scan(CIDR, TIMEOUT, THREAD_COUNT, SPOOF_UA=False):
 
     print()
 
-    spawn_threads(THREAD_COUNT, TIMEOUT, SPOOF_UA)
+    threads(THREAD_COUNT, TIMEOUT, SPOOF_UA)
 
 
 

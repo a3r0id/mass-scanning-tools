@@ -2,6 +2,5 @@
 ### Usage:
 `python3 asn2cidr.py ASN25938`
 
-
 -----
-## Requires whois binary!
+## Requires whois binary
