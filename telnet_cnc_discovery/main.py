@@ -25,7 +25,7 @@ def get_lst(input_file):
 	return ips	
 
 class glbls:
-	with open('data.json') as f:
+	with open('config.json') as f:
 		data = json.load(f)
 	current_session = span_token(8)
 	hit_words 		= data['hit_words']	
