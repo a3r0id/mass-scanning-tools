@@ -8,7 +8,7 @@ Map services across entire IP ranges, then quantify, inspect, and archive the re
 
 **Pipeline:** `ASN -> CIDR -> ZMap -> ZGrab2 -> archive`
 
-> **Authorization required.** Only scan networks you own or have explicit written permission to test. Unauthorized scanning is illegal.
+> **Authorization required.** Only scan networks you own or have explicit written permission to test. Unauthorized scanning may be illegal under certain circumstances.
 
 ## Install
 
