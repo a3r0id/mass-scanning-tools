@@ -2,7 +2,7 @@
 
 Map services across entire IP ranges, then quantify, inspect, and archive the results.
 
-**UPDATE**: Picking this project back up, after many years. This is an old project that I figured could use some TLC.
+**2026-08-07 UPDATE**: Picking this project back up, after many years. This is an old project that I figured could use some TLC.
 
 <img width="875" height="1086" alt="image" src="https://github.com/user-attachments/assets/f7612be9-3d54-4478-a9e3-e65d53e73003" />
 
