@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mst:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Headless mode: Runs without CLI and uses headless_config.json for configuration
+      - HEADLESS=true
+      - HEADLESS_CONFIG=headless_config.json
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    command: python src/mst/__main__.py

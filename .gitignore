@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+runs/
+*.jsonl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+cidrs.txt
+zmap.jsonl

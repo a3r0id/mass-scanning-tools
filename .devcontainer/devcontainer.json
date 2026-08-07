@@ -1,0 +1,21 @@
+{
+  "name": "mass-scanning-tools",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "runArgs": ["--privileged", "--cap-add=NET_RAW", "--cap-add=NET_ADMIN"],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/bootstrap.sh",
+  "remoteUser": "vscode"
+}
