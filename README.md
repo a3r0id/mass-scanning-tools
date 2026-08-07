@@ -1,73 +1,6 @@
-# **mass-scanning-tools**
+# mass-scanning-tools
 
-
-
-`mst doctor` sample output
-
-```bash
-vscode ➜ /workspaces/mass-scanning-tools (master) $ mst doctor
-
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⡶⠾⠿⠷⢶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡿⠋⠀⠀⠀⠀⠀⠉⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⣠⣴⣤⠀⠀⠀⠀⢀⣴⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⣠⡞⠁⣸⡇⠀⠀⢀⣠⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⢀⡾⠋⠀⢰⡟⠀⢀⣴⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⣰⣯⣼⠀⠀⣿⣥⣶⠟⠉⠀⠀⠀⠀⣀⢤⣀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⡸⠋⢁⡿⠀⠀⠈⠁⠀⠀⠀⠀⣀⣤⠾⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡻⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⢸⡇⠀⠀⠀⠀⠀⣀⣴⠞⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⢸⡇⠀⠀⣠⡴⣾⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣦⡀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠈⠿⠶⠛⠉⣼⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⡀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⣸⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⢠⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠹⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⢀⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠀⠈⠻⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡆⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⣾⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠈⠛⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⡄⠀⠀⠀
-                              ⠀⠀⠀⣼⠏⠀⠀⠀⠀⠀⠀⠀⠀⣠⡾⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣦⡀⠀⠀⠀⠀⠀⠀⠀⠈⣿⡄⠀⠀
-                              ⠀⠀⣼⠏⠀⠀⠀⠀⠀⠀⠀⣠⣾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣦⡀⠀⠀⠀⠀⠀⠀⠘⣷⡀⠀
-                              ⠀⣰⡟⠀⠀⠀⠀⠀⢀⣴⡿⣿⠙⠻⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⠞⠋⢹⠿⣦⡀⠀⠀⠀⠀⠀⠸⣧⠀
-                              ⢀⣿⠁⠀⠀⠀⢀⣴⣿⡟⠀⣿⡀⠀⠀⠈⠛⠶⣤⣀⠀⠀⣰⡀⠀⢀⣠⡴⠟⠉⠀⠀⠀⣸⠀⠸⣿⣦⡀⠀⠀⠀⠀⢻⡇
-                              ⢸⡇⠀⠀⠀⣰⣿⣿⠋⠀⠀⠈⢻⢦⣀⠀⠀⠀⣠⢿⡿⠶⠟⠷⠾⡻⣥⡀⠀⠀⢀⣠⣞⠋⠀⠀⠙⢿⣿⣦⡀⠀⠀⠘⣷
-                              ⢸⡇⠀⠀⣼⠏⣾⡇⠀⠀⠀⠀⠀⠉⠛⠷⠒⠋⠁⠀⠀⢀⡤⣄⠀⠀⠀⠉⠓⠲⠛⠊⠁⠀⠀⠀⠀⠈⣿⠘⢷⡄⠀⠀⣿
-                              ⢸⡇⠀⢸⡏⠀⠘⠿⣦⣄⠀⠀⠀⢀⣀⣀⠀⠀⠀⠀⢀⡞⠀⠹⡄⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⢀⣴⡾⠋⠀⠘⣷⠀⢀⣿
-                              ⠘⣷⠀⣿⡇⠀⠀⠀⠈⠛⢷⣦⡾⣿⠋⢻⢳⡀⠀⢀⡾⠁⠀⠀⠹⡄⠀⠀⡼⣿⠉⣻⠷⣦⡶⠟⠉⠀⠀⠀⠀⣿⠀⣸⡏
-                              ⠀⠹⣧⢸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠸⣇⣼⠁⡇⠀⠘⠦⠤⠾⠦⠤⠟⠀⠀⠃⢻⣰⡏⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⣰⡟⠀
-                              ⠀⠀⠙⣷⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⡟⣷⠞⠻⡴⢦⣠⣤⣤⣤⢤⣴⢶⡜⠓⣮⣿⡇⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⠟⠀⠀
-                              ⠀⠀⠀⠈⠻⣿⣦⡀⠀⠀⠀⠀⠀⢸⡇⢸⠳⢤⣀⠀⠁⠀⠀⠁⠈⠁⢀⣤⠔⡇⠘⣧⠀⠀⠀⠀⠀⢀⣴⣿⡿⠋⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠙⠿⣿⣷⣄⡀⠀⠀⢸⡇⠀⠳⢤⡈⠉⠓⠦⠤⠤⠖⠋⠉⣠⠔⠁⠀⣿⠀⠀⠀⣠⣴⣿⡿⠋⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣻⢶⣤⡈⠻⢶⣀⠀⠙⠛⠢⢶⣄⡰⠤⠚⠋⠁⢀⣴⠟⠉⣠⣴⢿⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣍⠻⣶⣄⠹⣦⡀⠀⢀⣀⣀⣀⣀⠀⠀⣴⠟⢁⣴⠿⣫⣵⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣌⠻⣷⣌⠛⠛⠉⠉⠉⠉⠉⠙⠛⢃⣴⠟⢁⡴⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢧⡈⠻⣦⠀⠀⠀⠀⠀⠀⠀⣠⡾⠃⣰⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣄⠙⢷⡀⠀⠀⠀⠀⣴⠏⣠⡾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⣔⡙⠦⣄⡤⠞⣡⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢛⠶⠤⠴⠞⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-                              ┳┳┓┏┓┏┓┏┓  ┏┓┏┓┏┓┳┓┳┓┳┳┓┏┓  ┏┳┓┏┓┏┓┓ ┓┏┓┳┏┳┓
-                              ┃┃┃┣┫┗┓┗┓  ┗┓┃ ┣┫┃┃┃┃┃┃┃┃┓   ┃ ┃┃┃┃┃ ┃┫ ┃ ┃ 
-                              ┛ ┗┛┗┗┛┗┛  ┗┛┗┛┛┗┛┗┛┗┻┛┗┗┛   ┻ ┗┛┗┛┗┛┛┗┛┻ ┻      
-
-                  [Project Github]                                [The ZMap Project]
-                  https://github.com/a3r0id/mass-scanning-tools   https://zmap.io/
-
-                  - No affiliation with the ZMap Project.
-                  - Like anything, it's a work-in-progress.
-
-                                           mst doctor (v2.0.0)                                           
-┏━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃ Check      ┃ Status    ┃ Detail                                                                       ┃
-┡━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ Python     │ ok        │ 3.13.3                                                                       │
-│ Platform   │ info      │ Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.36                │
-│ whois      │ ok        │ /usr/bin/whois                                                               │
-│ go         │ ok        │ /usr/local/go/bin/go                                                         │
-│ zmap       │ ok        │ /usr/sbin/zmap                                                               │
-│ zgrab2     │ ok        │ /home/vscode/go/bin/zgrab2                                                   │
-│ privileges │ user      │ zmap may need sudo or CAP_NET_RAW                                            │
-│ networking │ container │ mst scan auto-enables zmap --vpn (gateway ARP often hangs on docker bridges) │
-└────────────┴───────────┴──────────────────────────────────────────────────────────────────────────────┘
-vscode ➜ /workspaces/mass-scanning-tools (master) $ 
-```
-
-
+<img width="875" height="1086" alt="image" src="https://github.com/user-attachments/assets/f7612be9-3d54-4478-a9e3-e65d53e73003" />
 
 Map services across entire IP ranges, then quantify, inspect, and archive the results.
 
@@ -76,8 +9,6 @@ Map services across entire IP ranges, then quantify, inspect, and archive the re
 **Pipeline:** `ASN -> CIDR -> ZMap -> ZGrab2 -> archive`
 
 > **Authorization required.** Only scan networks you own or have explicit written permission to test. Unauthorized scanning is illegal.
-
-
 
 ## Install
 
@@ -91,12 +22,10 @@ This installs the `mst` command.
 
 External tools:
 
-
-| Tool                                     | Role                      | Install                                           |
-| ---------------------------------------- | ------------------------- | ------------------------------------------------- |
-| [ZMap](https://zmap.io/)                 | L4 discovery (open ports) | `mst doctor` / distro packages                    |
-| [ZGrab2](https://github.com/zmap/zgrab2) | L7 handshakes / banners   | `mst doctor` (builds from source; needs Go 1.23+) |
-
+| Tool | Role | Install |
+|------|------|---------|
+| [ZMap](https://zmap.io/) | L4 discovery (open ports) | `mst doctor` / distro packages |
+| [ZGrab2](https://github.com/zmap/zgrab2) | L7 handshakes / banners | `mst doctor` (builds from source; needs Go 1.23+) |
 
 On Windows, use **WSL2**, then run `mst doctor` inside WSL.
 
@@ -110,8 +39,6 @@ mst run --asn AS36352 --port 1337 --module banner
 mst run --asn AS36352 --port 443 --module tls
 mst run --asn AS36352 --port 80 --module http -- --endpoint=/ --max-redirects=1
 ```
-
-
 
 ## Commands
 
@@ -141,8 +68,6 @@ Optional filters:
 - `--success-only` (default) keeps protocol successes; `--all-results` keeps every record
 - `--hit-words` / `--hit-regex` match against the **full JSON transcript** (not a reduced banner string)
 
-
-
 ### Multiple modules
 
 Use a ZGrab2 `.ini` with `mst probe --zgrab-config multi.ini` / `mst run --zgrab-config multi.ini`. Example:
@@ -158,8 +83,6 @@ name="ssh22"
 port=22
 ```
 
-
-
 ### Archive layout (`mst run`)
 
 ```text
@@ -172,16 +95,12 @@ runs/20260101T120000Z_AS36352/
   summary.json
 ```
 
-
-
 ## Development
 
 ```bash
 pip install -e .
 mst --help
 ```
-
-
 
 ## Legacy
 
