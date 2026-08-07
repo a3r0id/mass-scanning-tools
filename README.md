@@ -1,7 +1,6 @@
 # mass-scanning-tools
 
-<img width="872" height="1061" alt="image" src="https://github.com/user-attachments/assets/f2d85a6e-e061-4a55-9121-15fc56d9a0b9" />
-
+<img width="875" height="1086" alt="image" src="https://github.com/user-attachments/assets/f7612be9-3d54-4478-a9e3-e65d53e73003" />
 
 Map services across entire IP ranges, then quantify, inspect, and archive the results.
 
