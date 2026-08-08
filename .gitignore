@@ -14,3 +14,5 @@ runs/
 .ruff_cache/
 cidrs.txt
 zmap.jsonl
+notes
+node_modules/
